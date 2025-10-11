@@ -213,3 +213,10 @@ data/
 kaggle.json
 __pycache__/
 .ipynb_checkpoints/
+
+
+echo "**/data/"            >> .gitignore           # 모든 경로의 data/ 폴더 무시
+echo "**/.env"             >> .gitignore           # 모든 .env 파일 무시
+echo "**/kaggle.json"      >> .gitignore           # 카글 토큰 파일 무시
+echo "**/__pycache__/"     >> .gitignore           # 파이썬 캐시 폴더 무시
+echo "**/.ipynb_checkpoints/" >> .gitignore        # 주피터 체크포인트 무시
