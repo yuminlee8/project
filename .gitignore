@@ -221,6 +221,9 @@ cat >> .gitignore << 'EOF'
 **/kaggle.json
 **/__pycache__/
 **/.ipynb_checkpoints/
+**/.virtual_documents/
+**/*.zip
+anaconda_projects/
 EOF
 
 
